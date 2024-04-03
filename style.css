@@ -1,0 +1,103 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(248, 248, 137),
+    rgb(245, 169, 182)
+  );
+  font-family: system-ui, sans-serif;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(241, 138, 202);
+}
+ul {
+  display: flex;
+  padding: 1%;
+}
+ul li {
+  margin-inline: 30px;
+  list-style: none;
+  font-size: 20px;
+}
+ul li a:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+.menu img {
+  width: 50px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.right {
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 50%;
+}
+.left img {
+  margin-right: 0;
+  width: 700px;
+  height: 700px;
+}
+.right h1 {
+  font-size: 50px;
+}
+.right p {
+  margin-top: 50px;
+  font-size: 20px;
+}
+.right button {
+  width: 200px;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  background-color: lightcoral;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.left-images {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.left-images img {
+  margin-bottom: 10px;
+}
+
+.right-image {
+  width: 20%;
+  height: 25%;
+}
+
+.right-box {
+  position: bottom;
+  bottom: 0;
+  right: 0;
+  background-color: indianred;
+  padding: 20px;
+  border: 20px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.right-box .content {
+  text-align: center;
+}
